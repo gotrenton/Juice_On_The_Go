@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Bootstrap Example </title>
+        <title> JOG </title>
         <meta charset="utf-8" />
         <meta name ="viewport" content="width=device-width, initial-scale=1" />
         
@@ -14,66 +14,120 @@
     </head>
 
     <body>
-
+        <header>
+            <ul class="nav nav-pills">
+                <li > 
+                    <img class="logo-img" src="logo.png" width="auto" height="30" ALT="align box" ALIGN=CENTER>
+                </li>
+                <li class="active"><a href="#">Home</a></li>
+                <li ><a href="#">About</a></li>
+                <li ><a href="#">Recipes</a></li>
+                <li ><a href="#">Our Story</a></li>
+                <li ><a href="#">Careers</a></li>
+            </ul>
+        </header>
+        
         <section class="container">
-        /*developer notes: xs, sm, md, lg 
-placeholder.com*/
+        <!--/*developer notes: xs, sm, md, lg 
+placeholder.com*/-->
 
-            <header>
-                <ul class="nav nav-pills">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                    <li role="presentation"><a href="#">Profile</a></li>
-                    <li role="presentation"><a href="#">Messages</a></li>
-                </ul>
-            </header>
-
-            <h1>Main Heading</h1>
+            
 
             <div class ="row">
 
-                <div class ="col-sm-12">
-                    <img src= "https:///via.placeholder.com/1200x250" />
+                <div class ="col-sm-12 text-center">
+                    <!--<img src= "https:///via.placeholder.com/1200x250" />-->
+                    <h1 class ="name"> Juice On The Go</h1>
+                    <p class ="first-copy">Juice smoothies. Made simple.</p>
+                    <p class = "third-copy"> <span class="dark-red">World's first juice truck. Download the app to find a truck near you.</span></p>
                 </div>
 
             </div>
 
+            <div class ="row second-row">
 
-            <div class ="row">
-
-                <div class="col-xs-4"> 
-                    <h2> Subheading</h2>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <div class="col-xs-8 text-center"> 
+                    <p class ="second-copy">Tango with <span class="mango">mango.</span> <br> Try this summer's smoothie special.</p>
+                    <h2>Available at all locations.</h2>
+                    
                 </div>
 
-                <div class="col-xs-4">
-                    <h2> Subheading</h2>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                <div class="col-xs-4 text-center">
+                    <img src="smoothie_cup.png" alt="mango smoothie" />
                 </div>
 
-                <div class="col-xs-4">
-                    <h2> Subheading</h2>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+
+            <div class ="row fourth-row">
+
+                <div class="col-xs-6 text-center"> 
+                    <h2 class="first-copy text-center"> Simple </h2>
+                    <p class = "third-copy"> We keep it simple and smooth. Our app finds the best trucks based on location and line congesion. So you can find us, drink up, and get on the go. </p>
                 </div>
 
-            <div class ="row">
+                <div class="col-xs-6 text-center">
+                    <h2 class="first-copy"> Sustainable </h2>
+                    <p class = "third-copy">Electric trucks. Biodegradeable plastic cups. Sustainably sourced ingredients. We don't just talk sustainability, we live by it.</p>
+                </div>
 
-                <div class="col-xs-9"> 
-                    <h2> About Us</h2>
-                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            </div>
+
+            <div class ="row fourth-row">
+
+                <div class="col-xs-6 text-center">
+                    <h2 class="first-copy"> Superfoods </h2>
+                    <p class = "third-copy"> Adaptogenic herbs, goji berries, plant-based milks, nut proteins. Our varied selection fuels the most studious students and the most driven gym junkies. It's not called super for nothing.</p>
+                </div>
+
+                <div class="col-xs-6 text-center">
+                    <h2 class="first-copy"> Supportive </h2>
+                    <p class = "third-copy">Students are the future. That's why we work directly with colleges to provide students with quick and easy smoothies. We even deliver to dorms, free of charge, using starship robots.</p>
+                </div>
+            </div>
+            
+
+
+        </section>
+
+        <section>
+            <div class ="footer-row row">
+
+                <div class="col-xs-6"> 
+                    <p><b>Disclaimer</b></p>
+                    <p>Starship robot deliveries are only available to students living on college campuses. JOG is not liable to customers who experience extreme bouts of euphoria due to consuming our delicious smoothies.</p>
 
                     <a href=""> Learn More</a>
                 </div>
 
-                <div class ="col-xs-3">
-                    <h2>Contact List</h2>
-                    <ul>
-                        <li> Email: blahblah@gmail.com</li>
-                        <li> Phone: 111-111-1111</li>
+                <div class ="col-xs-2">
+                    <p><b>Learn More</b></p>
+                    <ul class="directory ">                   
+                        <li ><a href="#">Sustainability</a></li>
+                        <li ><a href="#">Workplace Practices</a></li>
+                        <li ><a href="#">JOG News</a></li>
+                        <li ><a href="#">JOG Leadership</a></li>
+                        <li ><a href="#">Investors</a></li>
                     </ul>
                 </div>
-                
-            </div>
 
+                <div class ="col-xs-2">
+                    <p><b>Download The App</b></p>
+                    <ul class="directory ">                   
+                        <li ><a href="#">App Store</a></li>
+                        <li ><a href="#">Google Play</a></li>
+                    </ul>
+                </div>
+
+                <div class ="col-xs-2">
+                    <p><b>Contact Us</b></p>
+                    <ul class="directory ">                   
+                        <li ><a href="#">Email</a></li>
+                        <li ><a href="#">Instagram</a></li>
+                        <li ><a href="#">Facebook</a></li>
+                        <li ><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+                    
             </div>
         </section>
     </body>

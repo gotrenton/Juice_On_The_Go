@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+
+<style>
+// layout for services
+
+// display a stacked grid <767 pixels
+.services-area {
+    grid-area: svcs;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    @if $debug { background-color: $debugServicesArea; }
+} 
+
+// display a 2-column grid >768
+@include for-size(full-size) {
+    .services-area {
+    grid-area: svcs;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left: $gridMarginLeft;
+    margin-right: $gridMarginRight;
+
+    @if $debug { background-color: $debugServicesArea; }
+    }
+}
+
+.services-text {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-image {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+
+<body>
+    <!-- Services area -->
+    <div class="services-area">
+        <div class="services-text">
+            <h3>This is service 1</h3>
+        </div>
+        <div class="services-div">
+            <img class="services-image" src="https://dummyimage.com/300">
+        </div>
+        <div class="services-div">
+            <img class="services-image" src="images/home/home-agile-coaching.png" alt="Agile transformation image.">
+        </div>
+        <div class="services-text">
+            <h3>This is service 2</h3>
+        </div>
+        <div class="services-text">
+            <h3>This is service 3</h3>
+        </div>
+        <div class="services-div">
+            <img class="services-image" src="images/home/home-agile-sw-implementation.png" alt="Agile transformation image.">
+        </div>
+    </div>
+</body>
+
+
+</html>
