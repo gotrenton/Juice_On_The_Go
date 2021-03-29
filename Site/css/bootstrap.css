@@ -23,9 +23,13 @@ body {
   font-size: 15px;
 }
 
+
+/*needed*/
 .row img {
   width: 50%;
 }
+
+.row img
 
 .col-xs-6 img {
   border: 0;
@@ -119,6 +123,7 @@ h1 {
   margin: 0.67em 0;
 }
 
+/*NEEDED*/
 .logo-img {
   padding-top: 30%;
 }
@@ -168,6 +173,7 @@ h1.name {
 
 .footer {}
 
+/*needed*/
 .footer-row {
   margin-right: -15px;
   /*margin-left: -15px; removed this margin due to too much white space on the right*/
@@ -189,6 +195,12 @@ h1.name {
   padding-right: 9%;
   padding-top: 3%;
   padding-bottom: 5%;
+
+}
+
+.lead { 
+  list-style: none;
+  color:rgb(57 16 0);
 }
 
 .row-padding {
@@ -1552,6 +1564,7 @@ a {
   text-decoration: none;
 }
 
+/*needed*/
 a:hover,
 a:focus {
   color: rgb(226, 61, 21);
@@ -1569,6 +1582,11 @@ figure {
 
 img {
   vertical-align: middle;
+}
+
+/*needed for about*/
+.row .truck {
+width: 100%;
 }
 
 .img-responsive,
@@ -5097,6 +5115,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
   margin-left: -1px;
 }
 
+/**needed*/
 .nav {
   padding: 0 22px;
   margin: 0 auto;
@@ -5120,7 +5139,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
   padding: 10px 15px;
 }
 
-/*navbar hover focus highlight*/
+/*needed navbar hover focus highlight*/
 .nav>li>a:hover,
 .nav>li>a:focus {
   text-decoration: none;
@@ -5139,10 +5158,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
   background-color: transparent;
 }
 
+/*needed*/
 .nav .open>a,
 .nav .open>a:hover,
 .nav .open>a:focus {
-  background-color: #eeeeee;
+  /*background-color: #eeeeee;*/
   /*border-color: #337ab7;*/
 }
 

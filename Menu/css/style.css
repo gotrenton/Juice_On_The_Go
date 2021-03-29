@@ -1,0 +1,28 @@
+.jumbotron{
+				background-color: red;
+				color: white;
+			}
+			section img{
+				width: 100%
+			}
+			ul{
+				margin-top: 1em;
+			}
+			h3{
+				margin-top:0;
+			}
+			a{
+				color: red;
+				text-decoration: none;
+			}
+			h2{
+				text-decoration: underline;
+				margin-bottom: 1em;
+			}
+
+			footer.jumbotron{
+				background-color: #f2f2f2;
+				color: #222;
+				margin-top: 2em;
+				margin-bottom: 0;
+			}
